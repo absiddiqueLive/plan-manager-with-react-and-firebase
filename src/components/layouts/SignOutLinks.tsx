@@ -5,10 +5,10 @@ const SignOutLinks: React.FC = () => {
   return (
     <ul className="right">
       <li>
-        <NavLink to="/">Signup</NavLink>
+        <NavLink to="/sinup">Signup</NavLink>
       </li>
       <li>
-        <NavLink to="/">Login</NavLink>
+        <NavLink to="/signin">Login</NavLink>
       </li>
     </ul>
   );
